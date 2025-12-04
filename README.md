@@ -139,22 +139,19 @@ Actual No    1156   85
 Model Comparison
 Strengths by Model
 XGBoost:
-
-✅ Highest precision and ROC-AUC
-✅ Handles non-linear relationships well
-✅ Built-in feature importance
+ Highest precision and ROC-AUC
+ Handles non-linear relationships well
+ Built-in feature importance
 
 Random Forest:
-
-✅ More interpretable than XGBoost
-✅ Robust to outliers
-✅ Lower variance across seeds
+ More interpretable than XGBoost
+ Robust to outliers
+ Lower variance across seeds
 
 Logistic Regression:
-
-✅ Most interpretable (linear coefficients)
-✅ Fastest training time
-✅ Works well with standardized features
+ Most interpretable (linear coefficients)
+ Fastest training time
+ Works well with standardized features
 
 Limitations
 
@@ -180,45 +177,6 @@ Long-Term
  Expand to international populations
  Multi-class prediction (severity levels)
 
-Project Structure
-credit-default-prediction/
-├── data/
-│   └── NFCS_2021_State_Data.csv
-├── models/
-│   ├── best_xgboost_model.pkl
-│   ├── random_forest_model.pkl
-│   └── logistic_model.pkl
-├── notebooks/
-│   └── exploratory_analysis.ipynb
-├── results/
-│   ├── feature_importance.csv
-│   ├── model_comparison.csv
-│   └── visualizations/
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_selection.py
-│   ├── model_training.py
-│   └── evaluation.py
-├── tests/
-│   └── test_pipeline.py
-├── requirements.txt
-├── README.md
-└── LICENSE
-Citation
-If you use this code or methodology in your research, please cite:
-bibtex@article{credit_default_2025,
-  title={Predicting Credit Card Default Risk Using Non-Transactional Data: A Machine Learning Approach},
-  author={Your Name},
-  journal={Working Paper},
-  year={2025}
-}
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
-
-National Financial Capability Study (NFCS) for providing the dataset
-FINRA Investor Education Foundation for data collection
-Optuna development team for the hyperparameter optimization framework
 
 Contact
 Author: Qihang Yang
